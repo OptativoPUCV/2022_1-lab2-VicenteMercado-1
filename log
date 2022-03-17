@@ -17,3 +17,18 @@ list.c:75:18: error: comparison between pointer and integer [-Werror]
 cc1.exe: all warnings being treated as errors
 Compilation failed
 49a7513
+Thu Mar 17 14:33:32 HSP 2022: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+list.c: In function 'firstList':
+list.c:41:22: error: comparison between pointer and integer [-Werror]
+   if (!list->current == NULL) return NULL;
+                      ^~
+list.c: In function 'pushFront':
+list.c:75:18: error: comparison between pointer and integer [-Werror]
+   if(!list->head == NULL) list->head->prev = nuevo;
+                  ^~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+7d51fd7
