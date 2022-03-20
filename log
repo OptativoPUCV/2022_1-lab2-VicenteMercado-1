@@ -78,3 +78,8 @@ list.c:77:18: error: comparison between pointer and integer [-Werror]
 cc1.exe: all warnings being treated as errors
 Compilation failed
 1ce9acb
+Sat Mar 19 21:37:06 HSP 2022: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+4507750
