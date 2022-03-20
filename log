@@ -67,3 +67,14 @@ Thu Mar 17 14:54:37 HSP 2022:
  1 file changed, 3 insertions(+), 5 deletions(-)
  tests:  0|0
 53999ca
+Sat Mar 19 21:35:19 HSP 2022: 
+ list.c | 16 ++++++++++------
+ 1 file changed, 10 insertions(+), 6 deletions(-)
+In file included from test.c:5:0:
+list.c: In function 'pushFront':
+list.c:77:18: error: comparison between pointer and integer [-Werror]
+   if(!list->tail == NULL){
+                  ^~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+1ce9acb
